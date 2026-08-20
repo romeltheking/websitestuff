@@ -16,6 +16,11 @@ p{
 .container{
     display: flex;
     padding: 0 50px;
+    margin-bottom: 50px;
+}
+
+.lead{
+    font-size: 20px;
 }
 
 #dorks{
@@ -25,7 +30,10 @@ p{
     width: 400px;
 }
 
-#romel{
-    width: 300px;
+.photo {
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+    flex-shrink: 0;
     margin-right: 20px;
 }
