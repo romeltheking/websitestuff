@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: rgb(255, 255, 255);
 }
@@ -39,6 +43,8 @@ p{
     margin-right: 20px;
     border-radius: 20px;
     transition: transform 0.3s ease;
+    border: 1px;
+    border-style: solid;
 }
 
 .photo:hover{
@@ -52,4 +58,35 @@ p{
 
 footer p{
     float: left;
+}
+
+.navigation{
+    border: 1px;
+    display: table;
+    margin: 0 auto;
+}
+
+.navigation ul{
+    list-style-type: none;
+    padding: 0 20px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation button{
+    display: block;
+    border: 1px;
+    border-style: solid;
+    background-color: white;
+    padding: 15px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    transition-property: color 0.2s ease;
+}
+
+.navigation button:hover{
+    background-color: rgb(53, 53, 53);
+    color: white;
+    transform: scale(1.10);
 }
