@@ -4,4 +4,27 @@ body{
 
 h1{
     color: white;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+}
+
+#dorks{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+#romel{
+    width: 300px;
+    margin-right: 20px;
 }
