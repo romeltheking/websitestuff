@@ -1,16 +1,17 @@
 body{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
-h1{
-    color: white;
+.titles{
+    color: rgb(0, 0, 0);
     font-family: "Open Sans";
     text-align: center;
 }
 
 p{
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
+    font-family: oxanium;
 }
 
 .container{
@@ -41,4 +42,8 @@ p{
 .container p{
     flex: 1;
     min-width: 0;
+}
+
+footer p{
+    float: left;
 }
