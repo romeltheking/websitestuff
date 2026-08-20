@@ -31,12 +31,18 @@ p{
     width: 400px;
 }
 
-.photo {
+.photo{
     width: 20%;
     height: 20%;
     object-fit: cover;
     flex-shrink: 0;
     margin-right: 20px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.photo:hover{
+    transform: scale(1.1);
 }
 
 .container p{
