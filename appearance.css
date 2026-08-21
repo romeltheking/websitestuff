@@ -83,6 +83,7 @@ footer p{
     cursor: pointer;
     transition: transform 0.2s ease;
     transition-property: color 0.2s ease;
+    width: 100px;
 }
 
 .navigation button:hover{
