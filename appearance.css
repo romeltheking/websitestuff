@@ -22,13 +22,6 @@ hr{
   text-align: center;
 }
 
-p {
-  color: rgb(0, 0, 0);
-  text-align: center;
-  font-family: oxanium;
-  animation: fadeIn 2s, rightToLeftPosition 1.5s ease;
-}
-
 .container {
   display: flex;
   margin-bottom: 50px;
@@ -38,6 +31,10 @@ p {
 
 .lead {
   font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: oxanium;
+  animation: fadeIn 2s, rightToLeftPosition 1.5s ease;
 }
 
 #dorks {
@@ -117,4 +114,8 @@ footer p {
 
 .right{
   flex: 6;
+}
+
+footer{
+  align-self: flex-start;
 }
