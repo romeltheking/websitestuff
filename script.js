@@ -1,9 +1,19 @@
-const Button = document.getElementById("freeRobux");
+import ScrollReveal from "https://cdn.jsdelivr.net/npm/scrollreveal/+esm";
 
-Button.addEventListener('mouseover', () => {
-  const randomTop = Math.random() * (window.innerHeight - Button.offsetHeight);
-  const randomLeft = Math.random() * (window.innerWidth - Button.offsetWidth);
+const button = document.getElementById('freeRobux');
 
-  Button.style.top = `${randomTop}px`;
-  Button.style.left = `${randomLeft}px`;
+button.addEventListener("mouseover", () => {
+  const randomTop = Math.random() * (window.innerHeight - button.offsetHeight);
+  const randomLeft = Math.random() * (window.innerWidth - button.offsetWidth);
+
+  button.style.top = `${randomTop}px`;
+  button.style.left = `${randomLeft}px`;
+});
+
+ScrollReveal().reveal('.container', {
+  delay: 200,
+  duration: 500,
+  distance: "20px",
+  origin: "bottom",
+  opacity: 0,
 });

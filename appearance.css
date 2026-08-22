@@ -34,7 +34,6 @@ hr{
   color: rgb(0, 0, 0);
   text-align: center;
   font-family: oxanium;
-  animation: fadeIn 2s, rightToLeftPosition 1.5s ease;
 }
 
 #dorks {
@@ -50,7 +49,6 @@ hr{
   border-radius: 20px;
   border: 1px;
   border-style: solid;
-  animation: fadeIn 2s, leftToRightPosition 1.5s ease;
 }
 
 .container p {
