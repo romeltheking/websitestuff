@@ -1,0 +1,32 @@
+@media (max-width: 1000px){
+  .container{
+    flex-direction: column;
+  }
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes leftToRightPosition{
+    0%{
+        transform: translateX(-100vw);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes rightToLeftPosition{
+    0%{
+        transform: translateX(200vw);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
