@@ -1,4 +1,4 @@
-import ScrollReveal from "https://cdn.jsdelivr.net/npm/scrollreveal/+esm";
+import ScrollReveal from "https://cdn.jsdelivr.net/npm/scrollreveal/+esm"; //https://unpkg.com/scrollreveal
 
 const button = document.getElementById('freeRobux');
 
